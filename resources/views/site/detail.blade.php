@@ -15,7 +15,7 @@
             <h4>Product Details</h4>
             <span>{{ $produk->product_description}}</span>
             <br><br>
-            <a href="https://wa.me/6285846657484" target="_blank"><i class="fab fa-whatsapp"></i>Beli Melalui Whatsapp</a>
+            <a class="whatsapp-btn" href="https://wa.me/6285846657484?text=Halo%20admin%2C%20saya%20mau%20order" target="_blank">Beli melalui Whatsapp</a>
         </div>
     </section>
 

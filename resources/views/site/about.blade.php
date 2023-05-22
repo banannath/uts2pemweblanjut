@@ -3,15 +3,21 @@
 @section('content')
 
 <section id="page-header" class="about-header">
-    <h2>#Know_Us</h2>
-    <p>We Spoil yourself with our product!</p>
+    <h2>Tentang Kami</h2>
+    <p>Kenali toko kami!</p>
     </section>
 
     <section id="about-head" class="section-p1">
     <img src="{{ asset('global/css/img') }}/fotoabout.png" alt="">
     <div>
-        <h2>Who are We?</h2>
-        <p>Our purpose at Let'Shop is to help people to lead bold and full lives. We believe that if you look good, you feel good. And when you feel good you can do good for others around you. Let'Shop brings you a wide range of trendy hoodies, jacket, leggings, ext. all at affordable prices to make them accessible to you. </p>
+        <h2>Maura Clothing</h2>
+        <p>
+            Toko kami adalah tempat yang tepat bagi Anda 
+            yang mencari busana trendy dan stylish untuk tampil menarik 
+            dalam setiap kesempatan. Kami menawarkan beragam pilihan fashion mulai dari pakaian, 
+            aksesoris, hingga sepatu dengan desain yang up-to-date dan kualitas yang terjamin. 
+            Koleksi kami selalu diperbarui sesuai dengan tren terkini sehingga Anda bisa selalu tampil fashionable dan memukau.
+        </p>
         <abbr title="Hello"></abbr>
         <br>
         <br>

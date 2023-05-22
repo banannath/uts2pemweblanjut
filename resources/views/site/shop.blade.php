@@ -3,13 +3,13 @@
 @section('content')
 
     <section id="page-header">
-        <h2>This Week Fashion Sale</h2>
-        <p>Save more with coupons & up to 70% off!</p>
+        <h2>Segera dapatkan produk kami !</h2>
+        <p>Dapatkan penawaran menarik di setiap pembelian</p>
     </section>
 
     <section id="product1" class="section-p1">
-        <h2>Featured Products</h2>
-        <p>Summer Collection New Mordern Design</p>
+        <h2>Produk Terkait</h2>
+        <p>Produk terbaru di bulan Mei</p>
         @include('site.produk')
     </section>
 

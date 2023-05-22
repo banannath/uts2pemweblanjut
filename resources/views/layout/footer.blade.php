@@ -1,6 +1,6 @@
 <footer class="section-p1">
     <div class="col">
-    <img class="logo" src="global/img/logo.png" width="60px"  alt="">
+    <img class="logo" src="{{ asset('global/css/img') }}/logowithtitle.png" alt="Maura Clothing Logo">
     <h4>Contact</h4>
     <p><strong>Address: </strong>Gegerkalong, Bandung</p>
     <p><strong>Phone: </strong> +62 22 2010423</p>
@@ -13,11 +13,13 @@
             </div>
         </div>
     </div>
+
     <div class="col">
         <h4>About</h4>
         <a href="{{ route('about') }}">About Us</a>
         <a href="{{ route('contact') }}">Contact Us</a>
     </div>
+
     <div class="col">
         <h4>My Account</h4>
         <a href="{{ route('login') }}">Sign In</a>

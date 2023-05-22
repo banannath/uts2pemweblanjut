@@ -1,11 +1,11 @@
 <section id="header">
     <a href="{{ route('index') }}">
-        <img class="logo" src="{{ asset('global/css/img') }}/logo-pemweb.png" alt="Maura Clothing Logo">    
+        <img class="logo" src="{{ asset('global/css/img') }}/logowithtitle.png" alt="Maura Clothing Logo">    
     </a>
     <div>
         <ul id="navbar"> 
             <li><a href="{{ route('index') }}" class="{{Request::is('/')?'active':''}}">Home</a></li>
-            <li><a href="{{ route('shop') }}">Shop</a></li>
+            <li><a href="{{ route('shop') }}" class="{{Request::is('shop')?'active':''}}">Shop</a></li>
             <li><a href="{{ route('about') }}" class="{{Request::is('about')?'active':''}}">About</a></li>
             <li><a href="{{ route('contact') }}" class="{{Request::is('contact')?'active':''}}">Contact</a></li>
             @if(!Auth::check())

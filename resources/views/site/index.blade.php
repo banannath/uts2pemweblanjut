@@ -3,15 +3,15 @@
 @section('content')
 
     <section id="hero">
-        <h4>Trade-in-offer</h4>
-        <h2>Super Value deals</h2>
-        <h1>On all products</h1>
-        <p>Save more with coupons & up to 70% off!</p>
-        <button>Belanja Sekarang</button>
+        <h4>Penawaran Terbaru</h4>
+        <h2>Dapatkan produk terbaru</h2>
+        <h1>Di bulan Mei</h1>
+        <p>Segera beli sebelum kehabisan!</p>
+        <button onclick="location.href='http://uas.test/shop'" type="button">Belanja Sekarang</button>
     </section>
     
     <br>
-    <h2 class="categories">Kategori</h2>
+    <!-- <h2 class="categories">Kategori</h2>
     <section id="feature" class="section-p1">
         @foreach($kategori as $hasil)
             <div class="fe-box">
@@ -21,7 +21,7 @@
                 </a>
             </div>
         @endforeach
-    </section>
+    </section> -->
 
     <section id="product1" class="section-p1">
         <h2>Produk Terkait</h2>
