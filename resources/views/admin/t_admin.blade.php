@@ -5,13 +5,13 @@
     <main id="main" class="main">
 
         <div class="pagetitle">
-        <h1>Tambah Admin</h1>
+        <h1>Tambah Data Admin</h1>
         <nav>
             <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Home</a></li>
             <li class="breadcrumb-item">Pengelolaan Admin</li>
-            <li class="breadcrumb-item"><a href="/admin">Data Admin</a></li>
-            <li class="breadcrumb-item active">Tambah Admin</li>
+            <li class="breadcrumb-item"><a href="/admin">Lihat Data Admin</a></li>
+            <li class="breadcrumb-item active">Tambah Data Admin</li>
             </ol>
         </nav>
         </div><!-- End Page Title -->
