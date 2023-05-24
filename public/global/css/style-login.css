@@ -55,9 +55,9 @@ form{
 
 .login-content h2{
 	margin: 15px 0;
-	color: #d76296;
+	color: #ee9fc3;
 	text-transform: uppercase;
-	font-size: 2.9rem;
+	font-size: 2.5rem;
 }
 
 .login-content .input-div{
@@ -86,7 +86,7 @@ form{
 
 .input-div > div{
     position: relative;
-	height: 45px;
+	height: 40px;
 }
 
 .input-div > div > h5{
@@ -94,8 +94,8 @@ form{
 	left: 10px;
 	top: 50%;
 	transform: translateY(-50%);
-	color: #999;
-	font-size: 18px;
+	color: #b1b1b1;
+	font-size: 10px;
 	transition: .3s;
 }
 
@@ -123,7 +123,7 @@ form{
 
 .input-div.focus > div > h5{
 	top: -5px;
-	font-size: 15px;
+	font-size: 10px;
 }
 
 .input-div.focus > .i > i{
@@ -140,7 +140,7 @@ form{
 	outline: none;
 	background: none;
 	padding: 0.5rem 0.7rem;
-	font-size: 1.2rem;
+	font-size: 1.0rem;
 	color: #555;
 	font-family: 'Poppins', sans-serif;
 }
@@ -169,7 +169,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #fab2d3, #fab2d3, #fab2d3);
+	background-image: linear-gradient(to right, #ee9fc3, #ee9fc3, #ee9fc3);
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
