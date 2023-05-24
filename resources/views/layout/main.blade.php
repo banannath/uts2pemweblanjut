@@ -11,7 +11,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon-32x32.png')  }}">
 </head>
 <body>
-    @include('layout.header');
+    @include('layout.header')
 
     @yield('content')
 
@@ -35,7 +35,7 @@
         </section>
     @endif
 
-    @include('layout.footer');
+    @include('layout.footer')
 
     <script src="{{ asset('global/js') }}script.js"></script>
 </body>
