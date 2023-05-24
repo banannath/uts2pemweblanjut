@@ -7,7 +7,7 @@
         <h2>Dapatkan produk terbaru</h2>
         <h1>Di bulan Juni</h1>
         <p>Segera beli sebelum kehabisan!</p>
-        <button onclick="location.href='http://uas.test/shop'" type="button">Belanja Sekarang</button>
+        <button onclick="location.href='http://uts2.test/shop'" type="button">Belanja Sekarang</button>
     </section>
     
     <br>
