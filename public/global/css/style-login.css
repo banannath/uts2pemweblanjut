@@ -55,7 +55,7 @@ form{
 
 .login-content h2{
 	margin: 15px 0;
-	color: #333;
+	color: #d76296;
 	text-transform: uppercase;
 	font-size: 2.9rem;
 }
@@ -148,7 +148,6 @@ form{
 .input-div.pass{
 	margin-bottom: 4px;
 }
-
 
 a{
 	display: block;
