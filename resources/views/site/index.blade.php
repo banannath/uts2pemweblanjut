@@ -7,9 +7,9 @@
         <h2>Dapatkan produk terbaru</h2>
         <h1>Di bulan Juni</h1>
         <p>Segera beli sebelum kehabisan!</p>
-        <button onclick="location.href='http://uts2.test/shop'" type="button">Belanja Sekarang</button>
+        <button onclick="location.href='{{ route('shop') }}'" type="button">Belanja Sekarang</button>
     </section>
-    
+
     <br>
     <!-- <h2 class="categories">Kategori</h2>
     <section id="feature" class="section-p1">

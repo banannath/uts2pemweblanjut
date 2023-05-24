@@ -64,6 +64,15 @@ body {
     width: 40%;
 }
 
+a {
+    text-decoration: none;
+    color: #272727;
+}
+
+a:hover {
+    color: #fab2d3;
+}
+
 
 
 /* Header start */
@@ -495,11 +504,11 @@ input[type=password] {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
     transition: background-color 0.3s ease;
 }
-  
+
 .whatsapp-btn:hover {
     background-color: #128C7E;
 }
-  
+
 
 #banner {
     display: flex;
