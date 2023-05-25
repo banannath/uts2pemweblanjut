@@ -2,8 +2,8 @@
     <div class="col">
     <img class="logo" src="{{ asset('global/css/img') }}/logowithtitle.png" alt="Maura Clothing Logo">
     <h4>Contact</h4>
-    <p><strong>Address: </strong>Gegerkalong, Bandung</p>
-    <p><strong>Phone: </strong> +62 22 2010423</p>
+    <p><strong>Address: </strong><a href="https://goo.gl/maps/FpfkipchQeSgZRYK9" target="_blank">Gegerkalong, Bandung</a></p>
+    <p><strong>Phone: </strong><a href="tel:+62222010423"> +62 22 2010423</a></p>
         <div class="follow">
             <h4>Follow Us</h4>
             <div class="icon">

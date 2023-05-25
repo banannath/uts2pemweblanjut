@@ -8,8 +8,9 @@
         <h1>Di bulan Juni</h1>
         <p>Segera beli sebelum kehabisan!</p>
         <button onclick="location.href='http://127.0.0.1:8000/shop'" type="button">Belanja Sekarang</button>
+        <button onclick="location.href='{{ route('shop') }}'" type="button">Belanja Sekarang</button>
     </section>
-    
+
     <br>
     <!-- <h2 class="categories">Kategori</h2>
     <section id="feature" class="section-p1">
