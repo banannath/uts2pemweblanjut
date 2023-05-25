@@ -32,16 +32,16 @@
                             @endif
                             <form action="/admin/{{ $user->id }}/edit" method="POST" enctype="multipart/form-data">
                                 @csrf
-                                <h6>Name</h6>
+                                <h6>Nama</h6>
                                 <input class="form-control" name="name" value="{{ $user->name }}" id="name" type="text" aria-label="default input example" style="margin-top: 10px">
                                 <br>
-                                <h6>Phone</h6>
+                                <h6>Nomor Telepon</h6>
                                 <input class="form-control" name="telepon" value="{{ $user->telepon }}" id="telepon" type="text"aria-label="default input example" style="margin-top: 10px">
                                 <br>
                                 <h6>Email</h6>
                                 <input class="form-control" name="email" value="{{ $user->email }}" id="email" type="text" aria-label="default input example" style="margin-top: 10px">
                                 <br>
-                                <h6>Address</h6>
+                                <h6>Alamat</h6>
                                 <input class="form-control" name="alamat" value="{{ $user->alamat }}" id="alamat" type="text" aria-label="default input example" style="margin-top: 10px">
                                 <br>
                                 <h6>Foto Profil</h6>
