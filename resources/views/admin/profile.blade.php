@@ -38,13 +38,13 @@
                         </li>
 
                         <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-change-password">Change Password</button>
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-change-password">Ubah Password</button>
                         </li>
                     </ul>
 
                     <div class="tab-content pt-2">
                         <div class="tab-pane fade show active profile-overview" id="profile-overview">
-                            <h5 class="card-title">Profile Details</h5>
+                            <h5 class="card-title">Detail Profil</h5>
                             @if(session('success'))
                                 <div class="alert alert-success" role="alert" style="margin-top:4px">
                                     {{ session('success') }}
@@ -59,7 +59,7 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-lg-3 col-md-4 label ">Name</div>
+                                <div class="col-lg-3 col-md-4 label ">Nama</div>
                                 <div class="col-lg-9 col-md-8">{{ auth()->user()->name }}</div>
                             </div>
 
@@ -69,7 +69,7 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-lg-3 col-md-4 label">Phone Number</div>
+                                <div class="col-lg-3 col-md-4 label">Nomor Telepon</div>
                                 <div class="col-lg-9 col-md-8">{{ auth()->user()->telepon }}</div>
                             </div>
 
@@ -140,19 +140,19 @@
                             <form action="/profile/{{auth()->user()->id}}/gantipw" method="POST">
                                 @csrf
                                 <div class="row mb-3">
-                                    <label for="currentPassword" class="col-md-4 col-lg-3 col-form-label">Current Password</label>
+                                    <label for="currentPassword" class="col-md-4 col-lg-3 col-form-label">Password Saat Ini</label>
                                     <div class="col-md-8 col-lg-9">
                                         <input type="password" name="current_pw" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="newPassword" class="col-md-4 col-lg-3 col-form-label">New Password</label>
+                                    <label for="newPassword" class="col-md-4 col-lg-3 col-form-label">Password Baru</label>
                                     <div class="col-md-8 col-lg-9">
                                         <input type="password" name="password" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="renewPassword" class="col-md-4 col-lg-3 col-form-label">Re-enter New Password</label>
+                                    <label for="renewPassword" class="col-md-4 col-lg-3 col-form-label">Konfirmasi Password</label>
                                     <div class="col-md-8 col-lg-9">
                                         <input type="password" name="confirmpw" class="form-control" required>
                                     </div>
