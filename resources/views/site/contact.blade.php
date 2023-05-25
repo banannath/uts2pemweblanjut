@@ -11,7 +11,7 @@
         <div class="details">
             <span>GET IN TOUCH</span>
             <h2>Datang ke pop-up store kami untuk melihat produk secara langsung</h2>
-            <h3>Wilayah Jualan</h3>
+            <h3>Wilayah Jualan Kami</h3>
             <div>
                 <li>
                     <i class="fal fa-map"></i>
