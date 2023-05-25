@@ -16,11 +16,11 @@
             <center><h1>Registrasi Akun</h1></center>
             <br>
             <div class="form-group">
-			<h5>Masukkan nama lengkap</h5>
+			<h5>Masukkan Nama Lengkap</h5>
                 <input type="text" name="name" class="form-control item" placeholder="Nama Lengkap">
             </div>
             <div class="form-group">
-				<h5>Masukkan username</h5>
+				<h5>Masukkan Username</h5>
                 <input type="text" name="username" class="form-control item" placeholder="Username">
             </div>
             <div class="form-group">
