@@ -24,7 +24,7 @@
                 <input type="text" name="username" class="form-control item" placeholder="Username">
             </div>
             <div class="form-group">
-				<h5>Masukkan password</h5>
+				<h5>Masukkan Password</h5>
                 <input type="password" name="password" class="form-control item" placeholder="Password">
             </div>
             <div class="form-group">
