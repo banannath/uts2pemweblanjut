@@ -57,8 +57,8 @@
                                                 <form action="{{ route('produk.destroy', $hasil->id) }}" method="POST">
                                                     @csrf
                                                     @method('delete')
-                                                    <a href="{{ route('produk.edit', $hasil->id) }}" class="btn btn-primary">Edit</a>
-                                                    <button class="btn btn-danger">Delete</button>
+                                                    <a href="{{ route('produk.edit', $hasil->id) }}" class="btn btn-primary">Ubah</a>
+                                                    <button class="btn btn-danger">Hapus</button>
                                                 </form>
                                             </td>
                                         </tr>
