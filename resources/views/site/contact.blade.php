@@ -15,15 +15,15 @@
             <div>
                 <li>
                     <i class="fal fa-map"></i>
-                    <p>Gegerkalong, Bandung</p>
+                    <p><a href="https://goo.gl/maps/FpfkipchQeSgZRYK9" target="_blank">Gegerkalong, Bandung</a></p>
                 </li>
                 <li>
                     <i class="far fa-envelope"></i>
-                    <p>mauraclothing@gmail.com</p>
+                    <p><a href="mailto:mauraclothing@gmail.com">mauraclothing@gmail.com</a></p>
                 </li>
                 <li>
                     <i class="fas fa-phone-alt"></i>
-                    <p>+62 22 2010423</p>
+                    <p><a href="tel:+62222010423">+62 22 2010423</a></p>
                 </li>
                 <li>
                     <i class="far fa-clock"></i>
