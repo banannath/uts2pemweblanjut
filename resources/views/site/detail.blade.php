@@ -12,7 +12,7 @@
             </h6>
             <h4>{{ $produk->product_name }}</h4>
             <h2>Rp <td>{{ number_format($produk->product_price, 2) }}</td></h2>
-            <h4>Product Details</h4>
+            <h4>Detail Produk</h4>
             <span>{{ $produk->product_description}}</span>
             <br><br>
             <a class="whatsapp-btn" href="https://wa.me/6285846657484?text=Halo%20admin%2C%20saya%20mau%20order" target="_blank">Beli melalui Whatsapp</a>
