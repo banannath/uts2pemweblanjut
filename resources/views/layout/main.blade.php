@@ -18,8 +18,8 @@
     @if(!Auth::check())
         <section id="newsletter" class="section-p1 section-m1">
             <div class="newstext">
-                <h4>Sign Up For Newsletters</h4>
-                <p>Get Email updates about our latest shop and <span>special offers</span></p>
+                <h4>Registrasi untuk mendapatkan update tentang kami</h4>
+                <p>Dapatkan update email mengenai kabar terbaru toko kami dan dapatkan <span>penawaran spesial</span></p>
             </div>
             <div class="form">
                 <input type="text" placeholder="Your Email Address">
@@ -29,8 +29,8 @@
     @else
         <section id="newsletter" class="section-p1 section-m1">
             <div class="newstext">
-                <h4>By logging in, You're already signed up for our newsletter program!</h4>
-                <p>You'll get Email updates about our latest shop and <span>special offers</span></p>
+                <h4>Dengan login, anda sudah terdaftar untuk program majalah kami!</h4>
+                <p>Anda akan mendapatkan update email mengenai kabar terbaru toko kami dan dapatkan <span>penawaran spesial</span></p>
             </div>
         </section>
     @endif
