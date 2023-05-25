@@ -5,7 +5,7 @@
     <p><strong>Alamat: </strong><a href="https://goo.gl/maps/FpfkipchQeSgZRYK9" target="_blank">Gegerkalong, Bandung</a></p>
     <p><strong>Nomor Telepon: </strong><a href="tel:+62222010423"> +62 22 2010423</a></p>
         <div class="follow">
-            <h4>Follow Us</h4>
+            <h4>Ikuti Kami</h4>
             <div class="icon">
                 <a href="https://twitter.com/KamuKenalLoh"><i class="fab fa-twitter"></i></a>
                 <a href="https://web.facebook.com/ariq.bagussugiharto/"><i class="fab fa-facebook"></i></a>
