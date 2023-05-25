@@ -9,7 +9,7 @@
 
     <section id="product1" class="section-p1">
         <h2>Produk Terkait</h2>
-        <p>Produk terbaru di bulan Mei</p>
+        <p>Produk terbaru di bulan Juni</p>
         @include('site.produk')
     </section>
 
