@@ -7,7 +7,7 @@
         <h2>Dapatkan produk terbaru</h2>
         <h1>Di bulan Juni</h1>
         <p>Segera beli sebelum kehabisan!</p>
-        <button onclick="location.href='http://uts2.test/shop'" type="button">Belanja Sekarang</button>
+        <button onclick="location.href='http://127.0.0.1:8000/shop'" type="button">Belanja Sekarang</button>
     </section>
     
     <br>
@@ -30,6 +30,7 @@
             @include('site.produk')
         </div>
     </section>
+    
 
     <section id="banner" class="section-1">
         <!-- <h4>Repair Service</h4>
