@@ -36,7 +36,7 @@
                 <input type="text" name="telepon" class="form-control item" placeholder="Nomor Telepon">
             </div>
             <div class="form-group">
-				<h5>Masukkan alamat</h5>
+				<h5>Masukkan Alamat</h5>
                 <input type="text" name="alamat" class="form-control item" placeholder="Alamat">
             </div>
             <h5>Tambahkan foto profil</h5>
