@@ -4,7 +4,7 @@
 
     <section id="page-header" class="about-header">
         <h2>Kontak Kami</h2>
-        <p>Kirim pesan kepada kami !</p>
+        <p>Kirim Pesan Kepada Kami !</p>
     </section>
 
     <section id="contact-details" class="section-p1">
