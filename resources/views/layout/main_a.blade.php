@@ -28,9 +28,9 @@
   <link href="{{ asset('global/admin/assets/css') }}/style.css" rel="stylesheet">
 </head>
 <body>
-    @include('layout.header_a');
+    @include('layout.header_a')
 
-    @include('layout.sidebar');
+    @include('layout.sidebar')
 
     @yield('content')
 
