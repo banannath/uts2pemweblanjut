@@ -38,7 +38,7 @@
                     <h5>Username atau Password anda tidak Valid!</h5>
                 @endif
 				<input type="submit" name="submit" value="Masuk" class="btn">
-				<h4>Belum punya akun?<a href="/register" style="text-align:center;"> Daftar sekarang, Yuk!</a></h4>
+				<h4>Belum punya akun?<a href="/register" style="text-align:center;"> Daftar sekarang!</a></h4>
             </form>
         </div>
     </div>

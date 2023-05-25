@@ -3,8 +3,8 @@
 @section('content')
 
     <section id="page-header">
-        <h2>Segera dapatkan produk kami !</h2>
-        <p>Dapatkan penawaran menarik di setiap pembelian</p>
+        <h2>Segera Dapatkan Produk Kami !</h2>
+        <p>Dapatkan Penawaran Menarik di Setiap Pembelian</p>
     </section>
 
     <section id="product1" class="section-p1">
