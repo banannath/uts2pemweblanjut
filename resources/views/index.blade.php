@@ -17,7 +17,7 @@
 			<form action="{{ route ('loginaksi') }}" method="POST">
                 @csrf
 				<img class="logo" src="{{ asset('global/css/img') }}/logo-pemweb.png" alt="Maura Clothing Logo">
-				<h2 class="title">Selamat Datang!</h2>
+				<h2 class="title">Selamat Datang di Maura Clothing!</h2>
            		<div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>
